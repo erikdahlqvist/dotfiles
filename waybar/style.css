@@ -7,15 +7,16 @@
 }
 
 #waybar {
-	background: #323232;
+	background: #222233;
 	color: #FFFFFF;
 	font-family: Liberation Mono, Noto Sans, sans-serif;
-	font-size: 13px;
+	font-size: 14px;
 }
 
 #workspaces button,
 #pulseaudio,
-#clock {
+#clock { 
+    color: #FFFFFF;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 5px;
@@ -23,5 +24,5 @@
 }
 
 #workspaces button.focused {
-	background: #444444;
+	background: #333344;
 }
