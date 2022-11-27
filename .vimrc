@@ -8,7 +8,7 @@ set shiftwidth=4
 set softtabstop=4
 
 hi LineNr ctermfg=DarkGrey
-hi clear CursorLine
+hi CursorLine cterm=NONE
 hi CursorLineNr term=bold cterm=bold ctermfg=white
 
 set cursorline
