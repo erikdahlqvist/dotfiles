@@ -1,0 +1,21 @@
+{
+	"layer": "bottom",
+	"position": "top",
+
+	"modules-left": ["sway/workspaces", "sway/mode"],
+	"modules-center": ["sway/window"],
+	"modules-right": ["pulseaudio", "clock"],
+
+	"sway/window": {
+		"max-length": 55
+	},
+
+	"pulseaudio": {
+		"format": "vol. {volume}%"
+	},
+	
+	"clock": {
+		"format": " {:%Y-%m-%d %I:%M}",
+		"tooltip": false
+	}
+}
