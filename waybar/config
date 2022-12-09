@@ -7,7 +7,7 @@
 	"modules-right": ["pulseaudio", "clock"],
 
 	"sway/window": {
-		"max-length": 55
+		"max-length": 75
 	},
 
 	"pulseaudio": {
