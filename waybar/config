@@ -11,7 +11,8 @@
 	},
 
 	"pulseaudio": {
-		"format": "vol. {volume}%"
+		"format": "vol. {volume}%",
+        "format-muted": "vol. off"
 	},
 	
 	"clock": {
