@@ -4,7 +4,7 @@
 
 	"modules-left": ["sway/workspaces", "sway/mode"],
 	"modules-center": ["sway/window"],
-	"modules-right": ["pulseaudio", "clock"],
+	"modules-right": ["tray", "pulseaudio", "clock"],
 
 	"sway/window": {
 		"max-length": 75
@@ -14,7 +14,7 @@
 		"format": "vol. {volume}%",
         "format-muted": "vol. off"
 	},
-	
+
 	"clock": {
 		"format": " {:%Y-%m-%d %I:%M}",
 		"tooltip": false

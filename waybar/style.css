@@ -15,7 +15,8 @@
 
 #workspaces button,
 #pulseaudio,
-#clock { 
+#clock,
+#tray { 
     color: #FFFFFF;
 	padding-left: 10px;
 	padding-right: 10px;
