@@ -1,0 +1,26 @@
+env:
+  TERM: xterm-256color
+
+window:
+  padding:
+    x: 2
+    y: 2
+
+font:
+  normal:
+    family: Liberation Mono
+    style: Regular
+  
+  bold:
+    family: Liberation Mono
+    style: Bold
+
+  italic:
+    family: Liberation Mono
+    style: Italic
+
+  bold_italic:
+    family: Liberation Mono
+    style: Bold Italic
+
+  size: 11.0
