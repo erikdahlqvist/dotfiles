@@ -8,9 +8,9 @@ output HDMI-A-1 bg /home/erik/Pictures/wp-1080x1920.png fill
 output HDMI-A-1 mode 2560x1080@60hz transform 90
 output DP-2 mode 2560x1440@164.835hz adaptive_sync on
 
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec alacritty
 bindsym $mod+q kill
-bindsym $mod+space exec bemenu-run
+bindsym $mod+space exec bemenu-run --line-height 28
 bindsym $mod+Shift+l exec swaylock -c 111111
 floating_modifier $mod normal
 bindsym $mod+Shift+c reload
